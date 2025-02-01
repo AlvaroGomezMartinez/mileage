@@ -21631,7 +21631,7 @@ function numberOfMiles(start, destination) {
 
   // Check if the start location exists in the chart
   if (!mileageChart[start]) {
-    return `"${start}" not found. Enter milage manually.`;
+    return `"${start}" not found. Enter mileage manually.`;
   }
 
   // Check if the destination exists for the given start location
@@ -21639,7 +21639,7 @@ function numberOfMiles(start, destination) {
     !mileageChart[start][destination] &&
     mileageChart[start][destination] !== 0
   ) {
-    return `"${destination}" not found. Enter milage manually.`;
+    return `"${destination}" not found. Enter mileage manually.`;
   }
 
   // Return the mileage
